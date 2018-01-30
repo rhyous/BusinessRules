@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fc9111ae-abd1-4217-9111-e38eaac97ee1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BusinessRules.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessRuleCollectionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessRuleResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessRulesNotMetException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBusinessRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBusinessRuleCollection.cs" />
+  </ItemGroup>
+</Project>

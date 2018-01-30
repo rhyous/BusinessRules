@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Rhyous.BusinessRules</id>
+    <version>1.0.0</version>
+    <title>Rhyous.BusinessRules</title>
+    <authors>Jared.Barneck</authors>
+    <owners></owners>
+    <description>A simple library to make Business Rules obvious as opposed to hidden in obscure lines of code.</description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>A simple library to make Business Rules obvious as opposed to hidden in obscure lines of code.</summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/Rhyous.BusinessRules.NuGet</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright Rhyous Publising LLC 2018</copyright>
+    <dependencies>
+        <group targetFramework="netstandard1.6">
+          <dependency id="System.Threading.Tasks.Parallel" version="4.3.0" />
+        </group>
+    </dependencies>
+    <tags>BusinessRules</tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+  </files>
+</package>

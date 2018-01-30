@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Rhyous.BusinessRules</AssemblyName>
+    <RootNamespace>Rhyous.BusinessRules</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\BusinessRules.Shared\BusinessRules.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

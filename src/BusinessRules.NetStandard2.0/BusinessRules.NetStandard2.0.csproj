@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Rhyous.BusinessRules</AssemblyName>
+    <RootNamespace>Rhyous.BusinessRules</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\BusinessRules.Shared\BusinessRules.Shared.projitems" Label="Shared" />
+
+</Project>
