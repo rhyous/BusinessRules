@@ -18,6 +18,7 @@
     <copyright>Copyright Rhyous Publising LLC 2018</copyright>
     <dependencies>
         <group targetFramework="netstandard1.6">
+          <dependency id="System.Runtime.Serialization.Formatters" version="4.3.0" />
           <dependency id="System.Threading.Tasks.Parallel" version="4.3.0" />
         </group>
     </dependencies>

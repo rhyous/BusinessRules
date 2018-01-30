@@ -9,6 +9,7 @@
   <Import Project="..\BusinessRules.Shared\BusinessRules.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
     <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
   </ItemGroup>
 
