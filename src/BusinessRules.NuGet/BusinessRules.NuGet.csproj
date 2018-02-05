@@ -61,6 +61,7 @@
     <None Include="tools\uninstall.ps1" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="lib\net461\" />
     <Folder Include="lib\netstandard1.6\" />
     <Folder Include="lib\netstandard2.0\" />
   </ItemGroup>
@@ -89,6 +90,7 @@
 SET ns16=netstandard1.6
 SET ns20=netstandard2.0
 copy /Y "$(SolutionDir)%25Project%25.%25ns16%25\$(OutDir)%25ns16%25\Rhyous.%25Project%25.dll" "$(ProjectDir)lib\%25ns16%25\"
-copy /Y "$(SolutionDir)%25Project%25.%25ns20%25\$(OutDir)%25ns20%25\Rhyous.%25Project%25.dll" "$(ProjectDir)lib\%25ns20%25\"</PreBuildEvent>
+copy /Y "$(SolutionDir)%25Project%25.%25ns20%25\$(OutDir)%25ns20%25\Rhyous.%25Project%25.dll" "$(ProjectDir)lib\%25ns20%25\"
+copy /Y "$(SolutionDir)%25Project%25.Net461\$(OutDir)Rhyous.%25Project%25.dll" "$(ProjectDir)lib\Net461\"</PreBuildEvent>
   </PropertyGroup>
 </Project>
