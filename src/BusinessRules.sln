@@ -24,9 +24,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules.Example", "BusinessRules.Example\BusinessRules.Example.csproj", "{ECB18493-F282-4C84-A005-7BF348D6D115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules.Net461.Tests", "BusinessRules.Net461.Tests\BusinessRules.Net461.Tests.csproj", "{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BusinessRules.Shared.Tests", "BusinessRules.Shared.Tests\BusinessRules.Shared.Tests.shproj", "{C9BA532F-4EA3-4988-829C-276EF1B5D533}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BusinessRules.Shared\BusinessRules.Shared.projitems*{8a9c2f8c-0e4e-46a1-8829-ad92b2fb10fd}*SharedItemsImports = 4
+		BusinessRules.Shared.Tests\BusinessRules.Shared.Tests.projitems*{c9ba532f-4ea3-4988-829c-276ef1b5d533}*SharedItemsImports = 13
+		BusinessRules.Shared.Tests\BusinessRules.Shared.Tests.projitems*{d4c8c6d7-3780-4ae1-80d5-96e49d84575f}*SharedItemsImports = 4
 		BusinessRules.Shared\BusinessRules.Shared.projitems*{fc9111ae-abd1-4217-9111-e38eaac97ee1}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +80,14 @@ Global
 		{ECB18493-F282-4C84-A005-7BF348D6D115}.DEV2|Any CPU.Build.0 = Debug|Any CPU
 		{ECB18493-F282-4C84-A005-7BF348D6D115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECB18493-F282-4C84-A005-7BF348D6D115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.DEV1|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.DEV1|Any CPU.Build.0 = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.DEV2|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.DEV2|Any CPU.Build.0 = Debug|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C8C6D7-3780-4AE1-80D5-96E49D84575F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
